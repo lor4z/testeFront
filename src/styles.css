@@ -1,0 +1,110 @@
+body{
+    height: 160vh;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #fff;
+}
+.product-card-header {
+    font-weight: bold;
+    color: #005b96;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+.product-img {
+    width: 100%;
+    border-radius: 50%;
+}
+.btn-add-product {
+    width: 100%;
+    font-weight: bold;
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.btn-add-product:hover {
+    background-color: #218838;
+}
+.delete-btn {
+    background-color: transparent;
+    border: none;
+    color: red;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.card-header{
+    background-color: rgba(13, 110, 253, 1)!important;
+    color: white;
+
+}
+.bg-secondary {
+    background-color: rgba(13, 110, 253, 1);
+}
+.card-header-custom {
+    background-color: #0275d8 ;
+    color: white !important;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-header{
+    background-color: #0275d8 ;
+}
+.card-footer{
+    display: flex;
+    flex-direction: column;    
+}
+.btn-green {
+    display: block;
+    background-color: #28a745;
+    width: 100%;
+    font-weight: bold;
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.btn-green-footer{
+    display: block;
+    background-color: #28a745;
+    width: 100%;
+    font-weight: bold;
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.icon-button {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.card-header-custom {
+    background-color: rgba(13, 110, 253, 1)!important;
+    color: white;
+    font-weight: bold;
+}
+.card{
+    margin-top: 30px;
+}
+
+.product-div{
+    display: flex;
+    align-items: center;
+}
+
